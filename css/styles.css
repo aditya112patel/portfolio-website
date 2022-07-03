@@ -1,0 +1,228 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  align-items:center ;
+  background-image: linear-gradient(to bottom, #DFF6FF, #748DA6);
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+.nav {
+  top: 0;
+  height: 3rem;
+   z-index: 3;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav li {
+   float: right;
+  background-color: #2C3639;
+}
+.logo {
+     
+    width: 2rem;
+    padding: 8px;
+    
+}
+.nav li a {
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #F0EBE3;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none ;
+}
+
+.nav li a:hover {
+    background-color: #3F4E4F;
+}
+
+
+
+.nav li.left {
+    float: left;
+}
+
+
+.intro {
+  margin-top: 4rem;
+  margin-left: 50px;
+  z-index: 1;
+  width: 90vw;
+  height: 80vh;
+  justify-self: center;
+}
+
+.main {
+  
+  position: relative;
+  bottom: 10vh;
+  right: 15vw;
+  height: 60vh;
+  z-index: 2;
+  float: right;
+  
+}
+
+.name {
+  color: #2C3639;
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  display: inline;
+  position: relative;
+  top: 25vh;
+  left: 15vw;
+ 
+}
+
+.subheading {
+  font-size: 1.5rem;
+  padding: 0%;
+}
+.box {
+  display: flex;
+  
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+.projects {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+button {
+  color: #EAF6F6;
+  padding: 0;
+  margin-top: 1.5rem;
+  border-style: none;
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  background-color: #7D9D9C;
+}
+
+button:focus {
+  background-color: #2C3639;
+  
+}
+.heading {
+  text-align: center;
+}
+.box div {
+  background-color: #f1f1f1;
+  margin: 30px;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 25vw;
+  height: 47vh;
+}
+
+.box div:hover {
+  color: black;
+}
+
+.grid {
+  display: grid;
+}
+.grid {
+  display: grid;
+  width: 90vw;
+  margin-left: 60px;
+  grid-template-columns: auto auto auto ;
+  gap: 30px;
+  padding: 10px;
+}
+
+.skill p {
+  color: #4B5D67;
+}
+
+.skill p:hover {
+  color: black;
+}
+
+.grid div {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  height: 30vh;
+}
+
+.grid div:hover {
+  background-color: #C6DCE4;
+}
+
+h4 {
+  margin-top: 1rem;
+
+}
+
+
+.skillimg {
+  display: inline;
+  width: 20vh;
+  float: left; 
+  margin-top:5vh;
+  margin-left: 2rem;
+}
+.n1 {
+  grid-column: 1/ span 2;
+} 
+
+.n7 {
+  grid-column: 2/span 2;
+}
+
+
+input[type=text],textarea {
+  
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  resize: vertical;
+}
+
+.contactme {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+}
+.form {
+  background: url(bg3.jpg);
+  background-size: cover;
+  width: 60vw;
+  margin-left: 15vw;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #748DA6;
+  color: #2C3639;
+  width: 5rem;
+  height: 2rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 25vw;
+}
